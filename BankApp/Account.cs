@@ -37,7 +37,24 @@ namespace BankApp
             }
         }
 
-       
+        public void withdraw(double amount)
+        {
+            if (amount < initialBalance)
+            {
+                if (amount!= 0)
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+            else
+            {
+                Console.WriteLine("Insufficient balance on your account");
+            }
+        }
 
     }
 }
