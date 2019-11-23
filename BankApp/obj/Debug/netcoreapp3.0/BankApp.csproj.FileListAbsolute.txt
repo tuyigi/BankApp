@@ -1,0 +1,11 @@
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp.deps.json
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp.runtimeconfig.json
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp.runtimeconfig.dev.json
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp.dll
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/bin/Debug/netcoreapp3.0/BankApp.pdb
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/obj/Debug/netcoreapp3.0/BankApp.csprojAssemblyReference.cache
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/obj/Debug/netcoreapp3.0/BankApp.AssemblyInfoInputs.cache
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/obj/Debug/netcoreapp3.0/BankApp.AssemblyInfo.cs
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/obj/Debug/netcoreapp3.0/BankApp.dll
+/Users/gilberttuyishime/RiderProjects/BankApp/BankApp/obj/Debug/netcoreapp3.0/BankApp.pdb

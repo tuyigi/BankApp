@@ -15,12 +15,17 @@ namespace BankApp
             this.account_type = account_type;
             this.currency = currency;
 
-            if (currency.ToLower().Equals("FRW"))
+            if (currency.ToLower().Equals("frw"))
             {
                 this.initialBalance = 50000;
-            }else if (currency.ToLower().Equals("USD") || currency.ToLower().Equals("EURO"))
+            }else if (currency.ToLower().Equals("usd") || currency.ToLower().Equals("euro"))
             {
                 this.initialBalance = 50;
+            }
+            else
+            {
+                Console.WriteLine("Invalid currency");
+                return;
             }
         }
 
@@ -39,15 +44,16 @@ namespace BankApp
 
         public void withdraw(double amount)
         {
-            if (amount < initialBalance)
+            if (amount <= initialBalance)
             {
                 if (amount!= 0)
                 {
-                    
+                    initialBalance = initialBalance - amount;
+                    Console.WriteLine($"Thank you for banking with us, you withdraw {amount} and your new balance is {initialBalance}");
                 }
                 else
                 {
-                    
+                  Console.WriteLine("You can not withdraw with 0 amount");  
                 }
             }
             else

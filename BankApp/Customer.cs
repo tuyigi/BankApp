@@ -6,17 +6,17 @@ namespace BankApp
         private string lastName;
         private string gender;
 
-        public void setFirstName(double firstName)
+        public void setFirstName(string firstName)
         {
             this.firstName = this.firstName;
         }
 
-        public void setLastName(double lastName)
+        public void setLastName(string lastName)
         {
             this.lastName = this.lastName;
         }
 
-        public void setGender(double gender)
+        public void setGender(string gender)
         {
             this.gender = this.gender;
         }
